@@ -1,11 +1,21 @@
-.skip-links {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+html {
+  color: #fff;
 }
 
 header {
   background-color: #656565;
+}
+
+li a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-ghost {
+  border-color: #fff;
+  border-width: 2px;
+  color: #fff;
 }
 
 .banner {
@@ -15,6 +25,12 @@ header {
   top: 0;
   right: 0;
   width: 100%;
+  border-top: 2px solid #fff;
+}
+
+.relative{
+  display: block;
+  overflow: hidden;
 }
 
 .menu {
@@ -23,6 +39,18 @@ header {
 
 .location {
  background-color: #6C6F5C;
+}
+
+.drinks {
+  background-color: #D2C9B8;
+}
+
+.map {
+  background-color: #F8FAED;
+}
+
+.nav {
+  display: none;
 }
 
 header [type="checkbox"] + label::before {
@@ -34,7 +62,8 @@ header [type="checkbox"] + label::before {
 }
 
 .nav-check:checked ~ .nav {
-  display: block;
+  display: inline-block;
+  border-top: 2px solid #fff;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -42,19 +71,16 @@ header [type="checkbox"] + label::before {
 }
 
 .nav-check:checked ~ .nav-label .nav-close {
-  display: block;
+  display: inline-block;
 }
 
-li a {
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
+
+
+main {
+  max-width: 50rem;
 }
 
-.banner-content {
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: 12px 12px;
-    padding-top: 301.25px;
+.cards {
+  border: 2px solid #6C6F5C;
+  background-color: #F8FAED;
 }
