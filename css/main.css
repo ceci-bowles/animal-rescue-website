@@ -2,11 +2,22 @@ html {
   color: #fff;
 }
 
-header {
+h1, h2, h3, h4, .btn {
+  font-family: "Asap", sans-serif;
+  font-weight: normal;
+}
+
+p, li, a, address, br, dl {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header, footer {
   background-color: #656565;
 }
 
-li a {
+li a, li {
   text-decoration: none;
   text-align: center;
   color: #fff;
@@ -28,12 +39,17 @@ li a {
   border-top: 2px solid #fff;
 }
 
+.banner-content {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
 .relative{
   display: block;
   overflow: hidden;
 }
 
-.menu {
+.holiday {
  background-color: #9CA892;
 }
 
@@ -41,8 +57,16 @@ li a {
  background-color: #6C6F5C;
 }
 
+.menu {
+  background-color: #9CA892;
+}
 .drinks {
-  background-color: #D2C9B8;
+  background-color: #fff;
+  color: #6C6F5C;
+}
+
+.drinks li, .cards {
+  color: #6C6F5C;
 }
 
 .map {
@@ -74,13 +98,175 @@ header [type="checkbox"] + label::before {
   display: inline-block;
 }
 
-
-
-main {
-  max-width: 50rem;
+.cards {
+    background-color: #fff;
 }
 
-.cards {
+.card {
   border: 2px solid #6C6F5C;
-  background-color: #F8FAED;
+  background-color: #fff;
+}
+
+.unit-content-distribute {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.intro {
+  animation: intro 1s linear;
+}
+
+.intro-2 {
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .banner-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .banner {
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+
+  .banner-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .banner {
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .banner {
+    padding-top: 15%;
+  }
+
+  .holiday {
+    padding-top: 25%;
+  }
+
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .banner-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .relative {
+    max-height: 370px;
+  }
+}
+
+@media only screen and (min-width: 55em) {
+
+  main {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .banner-content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .cats {
+    background-image: url("../images/cat-bg.svg");
+    background-size: 100px auto;
+    background-repeat: repeat;
+    background-position: left top, left bottom, left top;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+
+  .banner-content {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@keyframes intro {
+
+  0% {
+    filter: opacity(0);
+  }
+
+  10% {
+    filter: opacity(0);
+    transform: translateX(0);
+    transform: translateY(500px);
+  }
+
+
+  100% {
+    filter: opacity(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes intro-2 {
+
+  0% {
+    filter: opacity(0);
+  }
+
+  10% {
+    filter: opacity(0);
+    transform: translateX(0);
+    transform: translateY(500px);
+  }
+
+
+  100% {
+    filter: opacity(1);
+    transform: translateY(0);
+  }
+
 }
