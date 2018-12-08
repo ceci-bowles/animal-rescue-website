@@ -7,7 +7,7 @@ h1, h2, h3, h4, .btn {
   font-weight: normal;
 }
 
-p, li, a, address, br, dl {
+p, li, a, address, br, dl, caption, tr {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -62,6 +62,7 @@ nav a:hover, .current {
 .menu {
   background-color: #9CA892;
 }
+
 .drinks {
   background-color: #fff;
   color: #6C6F5C;
@@ -73,6 +74,7 @@ nav a:hover, .current {
 
 .map {
   background-color: #F8FAED;
+  color: #6C6F5C;
 }
 
 .nav {
@@ -128,6 +130,11 @@ div .card:hover {
 
 .intro {
   animation: intro 1s linear;
+}
+
+.button {
+  background-color: #6C6F5C;
+  border: 2px solid #6C6F5C;
 }
 
 @media only screen and (min-width: 25em) {
