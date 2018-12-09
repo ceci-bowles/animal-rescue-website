@@ -7,7 +7,7 @@ h1, h2, h3, h4, .btn {
   font-weight: normal;
 }
 
-p, li, a, address, br, dl, caption, tr {
+p, li, a, address, br, dl, caption, tr, h5, article {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -33,7 +33,7 @@ nav a:hover, .current {
 
 .banner {
   color: #fff;
-  background: linear-gradient(to bottom, rgba(101,101,101,1) 18%, rgba(101,101,101,0.9235127478753541) 60%, rgba(101,101,101,0.05) 100%), bottom center;
+  background: linear-gradient(to bottom, rgba(101,101,101,1) 18%, rgba(101,101,101,0.9235127478753541) 40%, rgba(101,101,101,0.05) 100%), bottom center;
   background-size: cover;
   top: 0;
   right: 0;
@@ -51,16 +51,12 @@ nav a:hover, .current {
   overflow: hidden;
 }
 
-.holiday {
+.holiday, .menu {
  background-color: #9CA892;
 }
 
 .location {
  background-color: #6C6F5C;
-}
-
-.menu {
-  background-color: #9CA892;
 }
 
 .drinks {
@@ -137,6 +133,15 @@ div .card:hover {
   border: 2px solid #6C6F5C;
 }
 
+table {
+  display: none;
+}
+
+.table {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner-content {
@@ -176,7 +181,13 @@ div .card:hover {
     padding-top: 25%;
   }
 
+  table {
+    display: block;
+  }
 
+  .table-hide {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 45em) {
@@ -242,7 +253,7 @@ div .card:hover {
     filter: opacity(0);
   }
 
-  10% {
+  5% {
     filter: opacity(0);
     transform: translateX(0);
     transform: translateY(500px);
