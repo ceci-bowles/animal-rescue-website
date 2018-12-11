@@ -149,8 +149,32 @@ table {
   background-color: #d2c9b8;
 }
 
-.adopt li{
+.adopt li {
   text-align: left;
+}
+
+.fade-6 {
+  animation: fade 6s linear infinite;
+}
+
+.fade-5 {
+  animation: fade 6s 1s linear infinite;
+}
+
+.fade-4 {
+  animation: fade 6s 2s linear infinite;
+}
+
+.fade-3 {
+  animation: fade 6s 3s linear infinite;
+}
+
+.fade-2 {
+  animation: fade 6s 4s linear infinite;
+}
+
+.fade-1 {
+  animation: fade 6s 5s linear infinite;
 }
 
 @media only screen and (min-width: 25em) {
@@ -295,6 +319,22 @@ table {
     transform: translateX(0);
     transform: translateY(-3px);
     filter: drop-shadow(0 1px 5px rgba(0, 0, 0, .5));
+  }
+
+}
+
+@keyframes fade {
+
+  0% {
+    filter: opacity(0);
+  }
+
+  50% {
+    filter: opacity(1);
+  }
+
+  100% {
+    filter: opacity(0);
   }
 
 }

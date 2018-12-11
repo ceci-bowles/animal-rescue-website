@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>adopt-animal rescue website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -62,8 +65,43 @@
       <div class="text-center unit xs-1 s-1 m-1 l-1 xl-1">
         <h3>About Us</h3>
       </div>
-      <div class="drinks island-1-2 push-0 unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img>
+      <div class="current island-1-2 push-0 unit xs-0 s-0 m-1-3 l-1-3 xl-1-3">
+        <svg class="fade-1" width="100" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="40" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="25" r="6"/>
+            <circle class="adopt" cx="70" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="50" r="14"/>
+        </svg>
+        <svg class="fade-2" width="200" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="50" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="15" r="6"/>
+            <circle class="adopt" cx="80" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="40" r="14"/>
+        </svg>
+        <svg class="fade-3" width="100" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="40" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="25" r="6"/>
+            <circle class="adopt" cx="70" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="50" r="14"/>
+        </svg>
+        <svg class="fade-4" width="200" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="50" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="15" r="6"/>
+            <circle class="adopt" cx="80" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="40" r="14"/>
+        </svg>
+        <svg class="fade-5" width="100" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="40" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="25" r="6"/>
+            <circle class="adopt" cx="70" cy="30" r="6"/>
+            <circle class="adopt" cx="55" cy="50" r="14"/>
+        </svg>
+        <svg class="fade-6" width="200" height="100" viewBox="0 0 100 100">
+            <circle class="adopt" cx="50" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="15" r="6"/>
+            <circle class="adopt" cx="80" cy="20" r="6"/>
+            <circle class="adopt" cx="65" cy="40" r="14"/>
+        </svg>
       </div>
       <div class="drinks island-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
         <p>Feline Café is a coffee shop for cat lovers. Whether you are looking for a calm space to unwind, you want to help cats in need or even if you're thinking of adopting. You'll love the cozy space where you can interact with these lovely rescue cats. It is a calm and happy space where you can get some purr-therapy and potentially find your new family member.</p>
@@ -158,8 +196,40 @@
           <li>Prepare your home. Have all toys, litter and food supplies ready before you pick up your cat.</li>
           <li>Pick up your new family member. We will walk you through the adoption contract and paperwork, as well as take a photo with your cat for the rescue's website. Please bring a carrier with a blanket or pillow inside to bring your cat home with you.</li>
       </div>
-      <div class="drinks island-1-2 push-0">
-        <img>
+    </section>
+    <section class="form grid">
+      <div class="island unit drinks header-float xs-1 s-1 m-1 l-1 xl-1 text-center">
+        <h1 class="text-upper yotta push-1-2">Adoption Form</h1>
+        <h2 class="mega normal text-center">* You must be at least 21 years of age to adopt</h2>
+        <form class="push-0 grid drinks" method="POST" action="https://formspree.io/bowl0043@algonquinlive.com">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+            <label for="name" class="text-upper text-left">First Name</label>
+            <input id="name" name="name" placeholder="John" aria-label="enter first name" required="">
+          </div>
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+            <label for="lastname" class="text-upper text-left">Last Name</label>
+            <input id="lastname" placeholder="Smith" aria-label="enter last name" name="lastname" required="">
+          </div>
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+            <label for="email" class="text-upper text-left">Your Email</label>
+            <input id="email" type="email" placeholder="me@me.com" aria-label="enter email" name="email" required="">
+          </div>
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+            <label for="subject" class="text-upper text-left">plan options</label>
+            <select id="subject" name="subject">
+              <option>freemium</option>
+              <option>regular</option>
+              <option>premium</option>
+            </select>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+            <label for="details" class="text-upper text-left">Comments</label>
+            <textarea id="details" name="message" placeholder="Additional details" aria-label="enter comments" required=""></textarea>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <button class="btn bold white text-upper" type="submit">Send message</button>
+          </div>
+        </form>
       </div>
     </section>
   </main>
