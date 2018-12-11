@@ -162,6 +162,14 @@ a:focus {
   text-align: left;
 }
 
+.image-cake, .image-coffee {
+  display: none;
+}
+
+.border {
+  border-bottom: 2px solid #6c6f5c;
+}
+
 .fade-6 {
   animation: fade 6s linear infinite;
 }
@@ -233,6 +241,10 @@ a:focus {
 
   .table-hide {
     display: none;
+  }
+
+ .image-coffee, .image-cake-2 {
+    display: inline-block;
   }
 
 }

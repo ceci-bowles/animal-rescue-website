@@ -57,7 +57,6 @@
         <div class="island header-float text-center absolute banner">
           <h2 class="yotta push-0 intro">Feline Café</h2>
           <p class="giga push-1-2 intro">Drink Coffee. Save Cats.</p>
-          <a href="sign-up.html" class="btn btn-ghost bold text-upper intro">free</a>
         </div>
       </div>
     </section>
@@ -106,7 +105,10 @@
       <div class="drinks island-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
         <p>Feline Café is a coffee shop for cat lovers. Whether you are looking for a calm space to unwind, you want to help cats in need or even if you're thinking of adopting. You'll love the cozy space where you can interact with these lovely rescue cats. It is a calm and happy space where you can get some purr-therapy and potentially find your new family member.</p>
         <p>We are a cause-focused business, which means that our business operates in order to support the cats that we foster. With the profits, we are able to pay for housing, food and supplies for these cats that are looking for their forever home.</p>
-        <p>Using a cat café business model, we support the rescue and their work. Our platform provides them with a full-time foster home where we house the cats, as well as fundraising efforts to pay for their care.<p>
+        <p>Using a cat café business model, we support the rescue and their work. <p>Our platform provides them with a full-time foster home where we house the cats, as well as fundraising efforts to pay for their care.</p>
+        <p>Our ethical mission is to provide a space to foster cats from a local rescue, take care of them, socialize them and promote their adoptions.</p>
+        <p>Our business philosophy is to create positive change on the planet, to benefit its people and animals. Sourcing is done ethically and locally.</p>
+        <p>Note that we keep the cats' health our top priority, which means we have a set of cat-tiquette rules to follow while in the cafe.</p>​
       </div>
     </section>
     <section>
@@ -125,7 +127,6 @@
             </div>
             <div class="gutter pad-t-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
               <p class="push-1-2">Get your asana on for a fun yoga session with our cats! The 45-min yoga class is led by certified instructor Jennifer Mulligan and will focus on a gentle stretch and flow and will be followed by 15 mins of relaxing time in the cat lounge with coffee or tea. The cost is $26 per person.</p>
-              <a href="sign-up.html" class="btn button push-1-2 bold text-center intro-2">Sign Up</a>
             </div>
           </div>
         </div>
@@ -142,7 +143,6 @@
             </div>
             <div class="gutter pad-t-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
               <p class="push-1-2">Friday Night is Date Night! We've bundled up this package for you and a special someone to have a romantic date night in the cat lounge at Feline Café. The registration includes two beverages from the menu, two desserts of choice and a one-hour reservation in the cat lounge. The cost is $35 per couple.</p>
-              <a href="sign-up.html" class="btn button push-1-2 bold text-center intro-2">Sign Up</a>
             </div>
           </div>
         </div>
@@ -159,7 +159,6 @@
             </div>
             <div class="gutter pad-t-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
               <p class="push-1-2">In this workshop, learn how to make two felt cat toy designs with catnip inside! Hannah will provide all the supplies and instruction needed to make your own hand-stitched toys, surrounded by our rescue cats. Tea provided. You get to keep the toys at the end of the workshop, or you can donate them to Furry Tales Cat Rescue if you wish. The cost is $35 per person.</p>
-              <a href="sign-up.html" class="btn button push-1-2 bold text-center intro-2">Sign Up</a>
             </div>
           </div>
         </div>
@@ -176,7 +175,6 @@
             </div>
             <div class="gutter pad-t-1-2 push-0 unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
               <p class="push-1-2">Gratitude is a positive emotional state in which we recognize and appreciate what we have worked for and received in life. Taking time to experience gratitude can make you happier. In this workshop learn some reasons to practice gratitude, create your own gratitude journal, and practice being grateful surrounded by cats! The cost is $35 per person.</p>
-              <a href="sign-up.html" class="btn button push-1-2 bold text-center intro-2">Sign Up</a>
             </div>
           </div>
         </div>
@@ -197,37 +195,117 @@
           <li>Pick up your new family member. We will walk you through the adoption contract and paperwork, as well as take a photo with your cat for the rescue's website. Please bring a carrier with a blanket or pillow inside to bring your cat home with you.</li>
       </div>
     </section>
-    <section class="form grid">
+    <section class="form grid" id="form">
       <div class="island unit drinks header-float xs-1 s-1 m-1 l-1 xl-1 text-center">
         <h1 class="text-upper yotta push-1-2">Adoption Form</h1>
         <h2 class="mega normal text-center">* You must be at least 21 years of age to adopt</h2>
-        <form class="push-0 grid drinks" method="POST" action="https://formspree.io/bowl0043@algonquinlive.com">
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
-            <label for="name" class="text-upper text-left">First Name</label>
-            <input id="name" name="name" placeholder="John" aria-label="enter first name" required="">
+        <form class="push-0 drinks" method="POST" action="https://formspree.io/bowl0043@algonquinlive.com">
+          <div class="grid">
+            <h3 class="push unit xs-1 s-1 m-1 l-1 gutter-1-2 border">Personal Information</h3>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+              <label for="name" class="text-upper text-left">First Name</label>
+              <input id="name" name="name" placeholder="John" aria-label="enter first name" required="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+              <label for="lastname" class="text-upper text-left">Last Name</label>
+              <input id="lastname" placeholder="Smith" aria-label="enter last name" name="lastname" required="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label for="phonenumber" class="text-upper text-center block">Phone Number</label>
+              <input type="text" name="number1" id="number1" required="" value="" aria-label="enter phone number">
+              <select name="telephone" id="telephone">
+                <option value="">Phone Type</option>
+                <option value="Home">Home</option>
+                <option value="Work">Work</option>
+                <option value="Cell">Cell</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label for="email" class="text-upper text-center block">Your Email</label>
+              <input id="email" type="email" placeholder="me@me.com" aria-label="enter email" name="email" required="">
+            </div>
           </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
-            <label for="lastname" class="text-upper text-left">Last Name</label>
-            <input id="lastname" placeholder="Smith" aria-label="enter last name" name="lastname" required="">
-          </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
-            <label for="email" class="text-upper text-left">Your Email</label>
-            <input id="email" type="email" placeholder="me@me.com" aria-label="enter email" name="email" required="">
-          </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
-            <label for="subject" class="text-upper text-left">plan options</label>
-            <select id="subject" name="subject">
-              <option>freemium</option>
-              <option>regular</option>
-              <option>premium</option>
-            </select>
+          <div class="grid">
+            <h3 class="push unit xs-1 s-1 m-1 l-1 gutter-1-2 border">Address</h3>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+              <label for="streetnumber" class="text-upper text-center block">Street Number</label>
+              <input class="strNum push-1-2" type="text" name="strNum" id="strNum" required="" value="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+              <label for="streetname" class="text-upper text-center block">Street Name</label>
+              <input class="strnamebox push-1-2" type="text" name="strName" id="strName" required="" value="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>Street Type</label>
+              <select id="strtype" name="strtype" required="">
+                <option value="Avenue">Avenue</option>
+                <option value="Boulevard">Boulevard</option>
+                <option value="Circle">Circle</option>
+                <option value="Court">Court</option>
+                <option value="Crescent">Crescent</option>
+                <option value="Drive">Drive</option>
+                <option value="Lane">Lane</option>
+                <option value="Parkway">Parkway</option>
+                <option value="Place">Place</option>
+                <option value="Private">Private</option>
+                <option value="Promenade">Promenade</option>
+                <option value="Road">Road</option>
+                <option value="Street">Street</option>
+                <option value="Terrace">Terrace</option>
+                <option value="Way">Way</option>
+                <option value="NotListed">Not Listed</option>
+              </select>
+              <label>Unit/Apt.#</label>
+              <input class="unitbox" type="text" name="unit" id="unit" value="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>City</label>
+              <input class="city" type="text" name="city" id="city" required="" value="">
+              <label>Province</label>
+              <select id="province" name="province" required="">
+                <option value="">Please Select</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Quebec">Quebec</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>Postal Code</label>
+              <input class="postal" type="text" name="postal" id="postal" required="" value="">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>What type of dwelling do you live in? </label>
+              <select id="dwelling" name="dwelling" required="">
+                <option value="">Select</option>
+                <option value="Apartment">Apartment</option>
+                <option value="House">House</option>
+                <option value="Townhome">Townhome</option>
+                <option value="Farm">Farm</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>Do you agree and promise to keep the cat(s) indoors?</label>
+              <select id="keepindoors" name="keepindoors" required="" style="margin-bottom: 10px;">
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
+              <label>Do you agree to never declaw any animal?</label>
+              <select id="declaw" name="declaw" required="" style="margin-bottom: 10px;">
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
           </div>
           <div class="push unit xs-1 s-1 m-1 l-1 gutter-1-2">
             <label for="details" class="text-upper text-left">Comments</label>
             <textarea id="details" name="message" placeholder="Additional details" aria-label="enter comments" required=""></textarea>
           </div>
           <div class="unit xs-1 s-1 m-1 l-1">
-            <button class="btn bold white text-upper" type="submit">Send message</button>
+            <button class="btn bold white text-upper" type="submit">Submit</button>
           </div>
         </form>
       </div>
