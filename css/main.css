@@ -141,6 +141,18 @@ table {
   animation: move .2s forwards;
 }
 
+.events {
+  background-color: #6c6f5c;
+}
+
+.adopt {
+  background-color: #d2c9b8;
+}
+
+.adopt li{
+  text-align: left;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner-content {
