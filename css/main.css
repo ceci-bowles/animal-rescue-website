@@ -2,7 +2,7 @@ html {
   color: #fff;
 }
 
-h1, h2, h3, h4, .btn {
+h1, h2, h3, h4, .btn, label {
   font-family: Asap, sans-serif;
 }
 
@@ -14,6 +14,7 @@ header, footer {
   background-color: #656565;
 }
 
+
 li a, li {
   text-decoration: none;
   text-align: center;
@@ -21,7 +22,7 @@ li a, li {
 }
 
 nav a:hover, .current {
-  color: #d2c9b8;
+  color: #e1e8bd;
 }
 
 .btn-ghost {
@@ -32,7 +33,7 @@ nav a:hover, .current {
 
 .banner {
   color: #fff;
-  background: linear-gradient(to bottom, rgba(101, 101, 101, 1) 18%, rgba(101, 101, 101, .9235) 40%, rgba(101, 101, 101, .05) 100%), bottom center;
+  background: linear-gradient(to bottom, rgba(101, 101, 101, 1) 25%, rgba(101, 101, 101, .9235) 50%, rgba(101, 101, 101, .05) 100%), bottom center;
   background-size: cover;
   top: 0;
   right: 0;
@@ -50,7 +51,7 @@ nav a:hover, .current {
   overflow: hidden;
 }
 
-.holiday, .menu {
+.menu {
   background-color: #9ca892;
 }
 
@@ -69,6 +70,10 @@ nav a:hover, .current {
 
 .map {
   background-color: #f8faed;
+  color: #6c6f5c;
+}
+
+.holiday {
   color: #6c6f5c;
 }
 
@@ -141,11 +146,15 @@ table {
   animation: move .2s forwards;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 .events {
   background-color: #6c6f5c;
 }
 
-.adopt {
+.holiday-menu {
   background-color: #d2c9b8;
 }
 
