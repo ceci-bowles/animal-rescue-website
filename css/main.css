@@ -2,7 +2,7 @@ html {
   color: #fff;
 }
 
-h1, h2, h3, h4, .btn, label {
+h1, h2, h3, h4, .btn, label, .nav a {
   font-family: Asap, sans-serif;
 }
 
@@ -13,7 +13,6 @@ p, li, a, address, br, dl, caption, tr, h5, article {
 header, footer {
   background-color: #656565;
 }
-
 
 li a, li {
   text-decoration: none;
@@ -116,6 +115,18 @@ div .card:hover {
   animation: move .2s forwards;
 }
 
+.btn-ghost:hover {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -170,28 +181,36 @@ a:focus {
   border-bottom: 2px solid #6c6f5c;
 }
 
+.fade-8 {
+  animation: fade 8s linear infinite;
+}
+
+.fade-7 {
+  animation: fade 8s 1s linear infinite;
+}
+
 .fade-6 {
-  animation: fade 6s linear infinite;
+  animation: fade 8s 2s linear infinite;
 }
 
 .fade-5 {
-  animation: fade 6s 1s linear infinite;
+  animation: fade 8s 3s linear infinite;
 }
 
 .fade-4 {
-  animation: fade 6s 2s linear infinite;
+  animation: fade 8s 4s linear infinite;
 }
 
 .fade-3 {
-  animation: fade 6s 3s linear infinite;
+  animation: fade 8s 5s linear infinite;
 }
 
 .fade-2 {
-  animation: fade 6s 4s linear infinite;
+  animation: fade 8s 6s linear infinite;
 }
 
 .fade-1 {
-  animation: fade 6s 5s linear infinite;
+  animation: fade 8s 7s linear infinite;
 }
 
 @media only screen and (min-width: 25em) {
@@ -243,7 +262,7 @@ a:focus {
     display: none;
   }
 
- .image-coffee, .image-cake-2 {
+  .image-coffee, .image-cake-2 {
     display: inline-block;
   }
 
