@@ -2,11 +2,11 @@ html {
   color: #fff;
 }
 
-h1, h2, h3, h4, .btn, label, .nav a {
+h1, h2, h3, h4, .btn, label, .nav a, a {
   font-family: Asap, sans-serif;
 }
 
-p, li, a, address, br, dl, caption, tr, h5, article {
+p, li, address, br, dl, caption, tr, h5, article, .span {
   font-family: Montserrat, sans-serif;
 }
 
@@ -14,10 +14,58 @@ header, footer {
   background-color: #656565;
 }
 
-li a, li {
+li a, li, div a {
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  background-color: #656565;
+}
+
+nav a:hover {
+  color: #e1e8bd;
+  background-color: #6c6f5c;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.btn a {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  background-color: #d2c9b8;
+}
+
+div .btn {
+  background-color: #d2c9b8;
+  border: solid 2px #d2c9b8;
+  color: #000;
+}
+
+div .btn:hover {
+  background-color: #000;
+  border: solid 2px #000;
+  color: #fff;
+  box-shadow: 1px 1px 10px #000;
+}
+
+div .btn:hover a {
+  background-color: #000;
+  border: solid 2px #000;
+  color: #fff;
+}
+
+.btn a:hover {
   text-decoration: none;
   text-align: center;
   color: #fff;
+  background-color: #000;
+  box-shadow: 1px 1px 10px #000;
+}
+
+button {
+  color: #000;
 }
 
 .banner {
@@ -70,7 +118,7 @@ li a, li {
   background-color: #fff;
 }
 
-.card {
+div .card {
   border: 2px solid #6c6f5c;
   background-color: #fff;
 }
@@ -78,6 +126,7 @@ li a, li {
 div .card:hover {
   background-color: #e1e8bd;
   animation: move .2s forwards;
+  box-shadow: 1px 1px 10px #000;
 }
 
 .current {
@@ -102,6 +151,10 @@ div .card:hover {
 
 table {
   display: none;
+}
+
+.table {
+  background-color: #fff;
 }
 
 .table:hover {
@@ -133,36 +186,28 @@ a:focus {
   border-bottom: 2px solid #6c6f5c;
 }
 
-.fade-8 {
-  animation: fade 8s linear infinite;
-}
-
-.fade-7 {
-  animation: fade 8s 1s linear infinite;
-}
-
 .fade-6 {
-  animation: fade 8s 2s linear infinite;
+  animation: fade 6s 1s linear infinite;
 }
 
 .fade-5 {
-  animation: fade 8s 3s linear infinite;
+  animation: fade 6s 2s linear infinite;
 }
 
 .fade-4 {
-  animation: fade 8s 4s linear infinite;
+  animation: fade 6s 3s linear infinite;
 }
 
 .fade-3 {
-  animation: fade 8s 5s linear infinite;
+  animation: fade 6s 4s linear infinite;
 }
 
 .fade-2 {
-  animation: fade 8s 6s linear infinite;
+  animation: fade 6s 5s linear infinite;
 }
 
 .fade-1 {
-  animation: fade 8s 7s linear infinite;
+  animation: fade 6s 6s linear infinite;
 }
 
 @media only screen and (min-width: 25em) {
