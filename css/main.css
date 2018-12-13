@@ -25,29 +25,17 @@ nav a {
   background-color: #656565;
 }
 
-nav a:hover {
-  color: #000;
-  background-color: #fff;
-  box-shadow: 1px 1px 10px #fff;
-}
-
 .btn {
   background-color: #d2c9b8;
   border: solid 2px #d2c9b8;
   color: #000;
 }
 
-.btn:hover {
+button .btn {
+  color: #000;
   background-color: #fff;
-  border: solid 2px #fff;
-  color: #fff;
-  box-shadow: 1px 1px 10px #fff;
 }
 
-button {
-  color: #000;
-  ba
-}
 
 .banner {
   color: #fff;
