@@ -17,6 +17,7 @@ header, footer {
 li a, li, div a {
   text-decoration: none;
   text-align: center;
+  color: #000;
 }
 
 nav a {
@@ -25,40 +26,22 @@ nav a {
 }
 
 nav a:hover {
-  color: #6c6f5c;
-  background-color: #d2c9b8;
+  color: #000;
+  background-color: #fff;
   box-shadow: 1px 1px 10px #000;
 }
 
-.btn a {
-  text-decoration: none;
-  text-align: center;
-  color: #000;
-  background-color: #d2c9b8;
-}
-
-div .btn {
+.btn {
   background-color: #d2c9b8;
   border: solid 2px #d2c9b8;
   color: #000;
 }
 
-div .btn:hover {
+.btn:hover {
   background-color: #fff;
+  border: solid 2px #fff;
   color: #fff;
-  box-shadow: 1px 1px 10px #000;
-}
-
-div .btn:hover a {
-  background-color: #fff;
-  color: #000;
-}
-
-.btn a:hover {
-  text-decoration: none;
-  text-align: center;
-  background-color: #fff;
-  color: #000;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 button {
