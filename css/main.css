@@ -14,29 +14,6 @@ header, footer {
   background-color: #656565;
 }
 
-li a, li, div a {
-  text-decoration: none;
-  text-align: center;
-  color: #000;
-}
-
-nav a {
-  color: #fff;
-  background-color: #656565;
-}
-
-.btn {
-  background-color: #d2c9b8;
-  border: solid 2px #d2c9b8;
-  color: #000;
-}
-
-button .btn {
-  color: #000;
-  background-color: #fff;
-}
-
-
 .banner {
   color: #fff;
   background: linear-gradient(to bottom, rgba(101, 101, 101, 1) 25%, rgba(101, 101, 101, .9235) 50%, rgba(101, 101, 101, .05) 100%), bottom center;
@@ -98,10 +75,6 @@ div .card:hover {
   box-shadow: 1px 1px 10px #000;
 }
 
-.current {
-  color: #e1e8bd;
-}
-
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -112,6 +85,49 @@ div .card:hover {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
+}
+
+.btn {
+  color: #000;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.current {
+  color: #fff;
+  background-color: #111;
+  border-color: #111;
+}
+
+.current:hover {
+  color: #fff;
+  background-color: #999;
+  border-color: #999;
+}
+
+.btn-readmore,
+.btn-footer {
+  color: #fff;
+  background-color: #656565;
+  border-color: #656565;
+}
+
+.btn-readmore:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-footer:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .intro {
