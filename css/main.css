@@ -28,7 +28,7 @@ nav a {
 nav a:hover {
   color: #000;
   background-color: #fff;
-  box-shadow: 1px 1px 10px #000;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 .btn {
@@ -46,6 +46,7 @@ nav a:hover {
 
 button {
   color: #000;
+  ba
 }
 
 .banner {
